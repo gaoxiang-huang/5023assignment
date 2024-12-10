@@ -1,0 +1,8 @@
+Please help me to evaluate the quality of the text. The criteria for
+evaluation include coherence, relevance, fluency, and readability.
+• The required Topic is: [Stepping on the Rainy Street].
+• The input long text is: [TEXT].
+• The output is an score between 0 and 10, with higher scores indicating
+better quality.
+• The structure of output:
+[Coherence: Score, Relevance: Score, Fluency: Score, Readability: Score].
