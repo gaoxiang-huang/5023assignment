@@ -23,7 +23,7 @@ def text_generation(prompt):
     return response.choices[0].message.content, times
 
 def generate_outline(topic):
-    prompt = f"Please as an author, analyze the task of generating a long text with the topic of: {topic}. Think the story step by step and then list the outline details, including the main sections with the words number of the about 10000 words article."
+    prompt = f"Please as an author, analyze the task of generating a more than 10000 words long text with the topic of: {topic}. Think the story step by step and then list the outline details, including the main sections with the words number of the about 10000 words article."
     outline, times = text_generation(prompt)
     save_file("prompts/outline.txt", outline)
     return outline, times
